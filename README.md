@@ -19,7 +19,13 @@ public class PlayerUI : Getable
 Getable을 상속하면
 
 ```
-PlayerUI playerUI = Getable.Get<PlayerUI>();
+public class OtherUI
+{
+    void Start
+    {
+        PlayerUI playerUI = Getable.Get<PlayerUI>();
+    }
+}
 ```
 
 다음과 같이 다른 스크립트에서 Getable.Get<타입>() 함수로 가져올 수 있다.
