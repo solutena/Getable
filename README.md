@@ -32,4 +32,4 @@ public class OtherUI : MonoBehaviour
 
 `Awake`에서 추가하고, `OnDestroy`에서 제거되므로
 
-`Get`해오기 전에 UI가 한번은 켜져있어야 한다.
+`Get`해오기 전에 게임오브젝트가 한번은 켜져있어야 한다.
