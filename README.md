@@ -21,3 +21,7 @@ PlayerUI playerUI = Getable.Get<PlayerUI>();
 ```
 
 다음과 같이 다른 스크립트에서 Getable.Get<타입>() 함수로 가져올 수 있다.
+
+Awake에서 추가하고, OnDestroy에서 제거되므로
+
+Get해오기전에 UI가 한번은 켜져있어야 한다.
