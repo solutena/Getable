@@ -19,7 +19,7 @@ public class PlayerUI : Getable
 Getable을 상속하면
 
 ```
-public class OtherUI
+public class OtherUI : MonoBehaviour
 {
     void Start
     {
